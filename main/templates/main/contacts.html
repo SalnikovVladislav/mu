@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Контакты</title>
+	<link rel="stylesheet" href="{% static 'css/contactscss.css'%}" type="text/css">
+	<script type="text/javascript">
+		if (screen.width <= 1390) {
+		window.location = "mcontacts.html";
+		}
+	</script>
+</head>
+<body>
+	<header>
+		{% block content %}
+		<div class="logout"><a href="{{ move }}">{{ text }} {{ username }}<br> {{ text2 }}</a></div>
+		<div class="myticket"><a href="mytickets"> Мои <br>билеты</a></div>
+		{% endblock %}
+
+		<a href="{% url 'news' %}">
+		<div class="news">
+			<p>Новости</p>
+		</div>
+		</a>
+		<div class="logo">
+			<a href="{% url 'home' %}">
+				<img src="{% static 'pictures/logo2.png' %}" alt="">
+			</a>
+		</div>
+		<a href="{% url 'contacts' %}">
+		<div class="contacts">
+			<p>Контакты</p>
+		</div>
+		</a>
+	</header>
+	<hr>
+	<main>
+
+		<p class="views">
+			Мы на карте:
+		</p>
+		<div class="map">
+			<div class="map_scr">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A363d4f3ce3faa4fefe293bc9d7fc74675de6b386ece4140bbb0b2b9dec226702&amp;width=1200&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+			</div>
+		</div>
+		<hr style="margin-top: 50px;">
+		<p class="views">
+			Оставтье заявку на посещение музея:
+		</p>
+		<div class="message">
+			<button id="Send" onclick="check()">
+				<a href="recording"><img src="{% static 'pictures/send.png' %}" alt=""></a>
+
+			</button>
+			<script src="{% static 'js/script1.js' %}"></script>
+		</div>
+	</main>
+	<footer>
+		<div class="footer_color">
+		<div class="footer_elem">
+			<div class="soc_web">
+				<img src="{% static 'pictures/vk1.png' %}" class="vk" alt="">
+				<img src="{% static 'pictures/inst.png' %}" class="inst" alt="">
+			</div>
+			<div class="info">
+				<p>
+					Наш музей работает круглосуточно. <br>
+					По адресу: <br>
+					г. Крутой, ул. Безымянная, <br>
+					дом 2. <br>
+				</p>
+			</div>
+			<div class="number_mail">
+				<div class="number">
+					<img src="{% static 'pictures/phone.png' %}" alt="">
+					<p>7-(999)-666-33-33</p>
+				</div>
+				<div class="mail">
+					<img src="{% static 'pictures/mail.png' %}" alt="">
+					<p>writehere@muse.um</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+</body>
+</html>

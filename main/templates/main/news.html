@@ -1,0 +1,177 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Новости</title>
+	<link rel="stylesheet" href="{% static 'css/newscss.css'%}" type="text/css">
+	<script type="text/javascript">
+		if (screen.width <= 1390) {
+		window.location = "mnews.html";
+		}
+	</script>
+	<script src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+ 
+		$(window).scroll(function(){
+		if ($(this).scrollTop() > 100) {
+		$('.scrollup').fadeIn();
+		} else {
+		$('.scrollup').fadeOut();
+		}
+		});
+ 
+		$('.scrollup').click(function(){
+		$("html, body").animate({ scrollTop: 0 }, 600);
+		return false;
+		});
+ 
+		});
+	</script>
+	
+</head>
+<body>
+	<header>
+		{% block content %}
+		<div class="logout"><a href="{{ move }}">{{ text }} {{ username }}<br> {{ text2 }}</a></div>
+		<div class="myticket"><a href="mytickets"> Мои <br>билеты</a></div>
+		<a href="{% url 'news' %}">
+		<div class="news">
+			<p>Новости</p>
+		</div>
+		</a>
+		<div class="logo">
+			<a href="{% url 'home' %}">
+				<img src="{% static 'pictures/logo2.png' %}" alt="">
+			</a>
+		</div>
+		<a href="{% url 'contacts' %}">
+		<div class="contacts">
+			<p>Контакты</p>
+		</div>
+		</a>
+	</header>
+	<hr>
+	<main>
+		<p class="views">
+			Последние новости:
+		</p>
+
+		{% for elem in exhibitions %}
+		<a id="first"></a>
+		<div class="container_news">
+			<div class="info_text">
+				<div class="name_date">
+					<div class="name">
+						<p>«{{ elem.name_of_exh }}»</p>
+					</div>
+					<div class="date">
+						<p>Дата начала:    {{ elem.start_time }}</p>
+						<br>
+						<p>Дата окончания:    {{ elem.end_time }}</p>
+					</div>
+				</div>
+				<div class="info_info">
+					<p> {{ elem.about_of_exh }}</p>
+				</div>
+			</div>
+			<div class="info_img">
+				<img src="{{ elem.image.url }}" alt="">
+			</div>
+			<div class="time">
+				<p>от {{ elem.published }}</p>
+			</div>
+		</div>
+		<div class="tipahr">
+			<img src="{% static 'pictures/line.png' %}" alt="">
+		</div>
+		{% endfor %}
+		{% endblock %}
+		<!--
+		<a id="second"></a>
+		<div class="container_news">
+			<div class="info_text">
+				<div class="name_date">
+					<div class="name">
+						<p>«Большой Каменный мост»</p>
+					</div>
+					<div class="date">
+						<p>Дата начала:    19.10.21</p>
+						<br>
+						<p>Дата окончания:    03.11.21</p>
+					</div>
+				</div>
+				<div class="info_info">
+					<p>Во дворе Музея откроется выставка рисунков и гравюр из нашего собрания, посвященная истории Большого Каменного моста. Мост «почитался одною из столичных диковинок наравне с колокольней Ивана Великого, Царь-Колоколом, Царь-Пушкою». В наши дни без него невозможно представить один из самых популярных открыточных видов на Кремль, храм Христа Спасителя, Берсеневскую, Пречистенскую и Софийскую набережные.</p>
+				</div>
+			</div>
+			<div class="info_img">
+				<img src="{% static 'pictures/2slid.png' %}" alt="">
+			</div>
+			<div class="time">
+				<p>15.09.21</p>
+			</div>
+		</div>
+		<div class="tipahr">
+			<img src="{% static 'pictures/line.png' %}" alt="">
+		</div>
+		<a id="third"></a>
+		<div class="container_news">
+			<div class="info_text">
+				<div class="name_date">
+					<div class="name">
+						<p>«От Пушкина до Чехова»</p>
+					</div>
+					<div class="date">
+						<p>Дата начала:    05.11.21</p>
+						<br>
+						<p>Дата окончания:    18.11.21</p>
+					</div>
+				</div>
+				<div class="info_info">
+					<p>Экспозиция посвящена великим писателям-драматургам. Это прекрасная возможность познакомиться с бессмертными творениями русских писателей-классиков. На выставке представлены драматические произведения великих русских писателей: А.С. Пушкина, А.Н. Островского, Н.В. Гоголя, Л.Н. Толстого, А.П. Чехова, а также издания, рассказывающие об истории создания пьес и театральных деятелях.</p>
+				</div>
+			</div>
+			<div class="info_img">
+				<img src="{% static 'pictures/1slid.png' %}" alt="">
+			</div>
+			<div class="time">
+				<p>10.10.21</p>
+			</div>
+		</div>
+		-->
+	</main>
+	<footer>
+		<div class="footer_color">
+		<div class="footer_elem">
+			<div class="soc_web">
+				<img src="{% static 'pictures/vk1.png' %}" class="vk" alt="">
+				<img src="{% static 'pictures/inst.png' %}" class="inst" alt="">
+			</div>
+			<div class="info">
+				<p>
+					Наш музей работает круглосуточно. <br>
+					По адресу: <br>
+					г. Крутой, ул. Безымянная, <br>
+					дом 2. <br>
+				</p>
+			</div>
+			<div class="number_mail">
+				<div class="number">
+					<img src="{% static 'pictures/phone.png' %}" alt="">
+					<p>7-(999)-666-33-33</p>
+				</div>
+				<div class="mail">
+					<img src="{% static 'pictures/mail.png' %}" alt="">
+					<p>writehere@muse.um</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	
+	<a href="#" class="scrollup">Наверх</a>
+</body>
+</html>

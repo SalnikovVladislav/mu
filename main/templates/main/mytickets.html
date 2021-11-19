@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Запись на выставку</title>
+	<link rel="stylesheet" href="{% static 'css/myticketscss.css'%}" type="text/css">
+</head>
+<body>
+	{% block content %}
+	<div class="back"><a href="recording">Назад</a></div>
+	<div class="logo">
+        <a href="{% url 'home' %}">
+            <img src="{% static 'pictures/logo3.png' %}" alt="">
+        </a>
+    </div>
+    <hr>
+    <main>
+    	<h1>Ваши билеты</h1>
+    	<hr>
+    	<div class="exhib">
+		{% for elem in mytickets %}
+		<div class="cont">
+			<p>
+				Билет на выставку: "{{ elem.name}}":
+			</p>
+			<p>
+				Владелец билета:{{ elem.buyer}}
+			</p>
+			<p>Номер билета: {{ elem.number_of_ticket }}</p>
+		</div>
+		<hr>
+		{% endfor %}
+		{% endblock %}
+    	</div>
+    </main>
+	
+</body>
+</html>

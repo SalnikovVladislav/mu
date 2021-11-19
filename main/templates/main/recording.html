@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Запись на выставку</title>
+	<link rel="stylesheet" href="{% static 'css/recordingcss.css'%}" type="text/css">
+</head>
+<body>
+	{% block content %}
+
+	<div class="logout"><a href="{{ move }}">{{ text }} {{ username }}<br> {{ text2 }}</a></div>
+	<div class="myticket"><a href="mytickets"> Мои <br>билеты</a></div>
+	<div class="logo">
+        <a href="{% url 'home' %}">
+            <img src="{% static 'pictures/logo3.png' %}" alt="">
+        </a>
+    </div>
+    <hr>
+    <main>
+    	<h1>Выберите выставку:</h1>
+    	<div class="exhib">
+		<div class="cont">
+			<form class="form-signin" method="post" action="{% url 'recording' %}">
+				{% csrf_token %}
+				{{ form.exhs}}
+				<button class="btn mt-2 btn-lg btn-primary btn-block" type="submit" onclick="alert('{{ message }}')">Записаться</button>
+			</form>
+		</div>
+
+		{% endblock %}
+    	</div>
+    </main>
+	
+</body>
+</html>

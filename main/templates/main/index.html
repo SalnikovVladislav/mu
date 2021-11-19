@@ -1,0 +1,110 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Museum</title>
+	<link rel="stylesheet" href="{% static 'css/indexcss.css'%}" type="text/css">
+	<script type="text/javascript">
+		if (screen.width <= 1380) {
+		window.location = "mindex.html";
+		}
+	</script>
+</head>
+<body>
+	<header>
+		{% block content %}
+		<div class="logout"><a href="{{ move }}">{{ text }} {{ username }}<br> {{ text2 }}</a></div>
+		<div class="myticket"><a href="mytickets"> Мои <br>билеты</a></div>
+		<a href="{% url 'news' %}">
+		<div class="news">
+			<p>Новости</p>
+		</div>
+		</a>
+		<div class="logo">
+			<a href="{% url 'home' %}">
+				<img src="{% static 'pictures/logo2.png' %}" alt="">
+			</a>
+		</div>
+		<a href="{% url 'contacts' %}">
+		<div class="contacts">
+			<p>Контакты</p>
+		</div>
+		</a>
+	</header>
+	<hr>
+	<main>
+		<p class="views">
+			Наши выставки:
+		</p>
+		<div class="slider_container">
+			<div class="slider">
+				{% for elem in exhibitions %}
+				<div class="slider_item" style="display: block;">
+					<a href="news.html#first"><img src="{{ elem.image.url }}" alt=""></a>
+				</div>
+				{% endfor %}
+
+
+				<a class="prev" onclick="minusSlide()">&#10094;</a>
+    			<a class="next" onclick="plusSlide()">&#10095;</a>
+  			</div>
+  			<script src="{% static 'js/script.js' %}"></script>
+		</div>
+		{% endblock %}
+		<div class="tipahr">
+			<img src="{% static 'pictures/line.png' %}" alt="">
+		</div>
+		<div class="pluses">
+			<div class="divan">
+				<img src="{% static 'pictures/divan.png' %}" alt="">
+				<div class="text">
+					<p>Стилистика музея под каждую выставку.</p>
+				</div>
+			</div>
+			<div class="money">
+				<img src="{% static 'pictures/money.png' %}" alt="">
+				<div class="text">
+					<p>Отсутствует<br> плата за вход.</p>
+				</div>
+			</div>
+			<div class="block">
+				<img src="{% static 'pictures/block.png' %}" alt="">
+				<div class="text">
+					<p>Размещение выствавки без ограничений.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="footer_color">
+		<div class="footer_elem">
+			<div class="soc_web">
+				<img src="{% static 'pictures/vk1.png' %}" class="vk" alt="">
+				<img src="{% static 'pictures/inst.png' %}" class="inst" alt="">
+			</div>
+			<div class="info">
+				<p>
+					Наш музей работает круглосуточно. <br>
+					По адресу: <br>
+					г. Крутой, ул. Безымянная, <br>
+					дом 2. <br>
+				</p>
+			</div>
+			<div class="number_mail">
+				<div class="number">
+					<img src="{% static 'pictures/phone.png' %}" alt="">
+					<p>7-(999)-666-33-33</p>
+				</div>
+				<div class="mail">
+					<img src="{% static 'pictures/mail.png' %}" alt="">
+					<p>writehere@muse.um</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

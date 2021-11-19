@@ -1,0 +1,169 @@
+.myticket{
+	position: absolute;
+	right: 5%;
+	top: 230px;
+	max-width: 20%;
+	margin: 0px auto;
+	margin-top: 10px;
+  	padding: 7px 7px 7px 7px;
+  	border: 1px solid #F08080;
+  	border-radius: 5px 5px 5px 5px;
+  	font-family: Trebuchet MS;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: white;
+  	text-align: right;
+	text-decoration: none;
+}
+.myticket a{
+	text-decoration: none;
+	color: #F08080;
+}
+.choice{
+    margin-top: 10px;
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em; width: 100%;
+    max-width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding-bottom: 15px;
+    border: 1px solid #aaa;
+     box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+     background-color: #fff;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23007CB2%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E'), linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%;
+}
+.choice::-ms-expand { display: none; }
+.choice:hover { border-color: #888; }
+.choice:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222;
+    outline: none;
+}
+.choice option { font-weight:normal; }
+    *[dir="rtl"] .choice, :root:lang(ar) .choice, :root:lang(iw) .choice {
+    background-position: left .7em top 50%, 0 0;
+    padding: .6em .8em .5em 1.4em;
+}
+body {
+  background: white;
+  color: rgba(66, 66, 66, 1);
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+  margin: 0px auto;
+}
+.logo{
+  width: 400px;
+  margin: 0px auto;
+  height: 103px;
+  object-fit: cover;
+  margin-top: 15px;
+}
+.logo img{
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.logout{
+  position: absolute;
+  right: 5%;
+  top: 150px;
+  max-width: 20%;
+  margin: 0px auto;
+  margin-top: 10px;
+    padding: 7px 7px 7px 7px;
+    border: 1px solid #F08080;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: right;
+  text-decoration: none;
+}
+.logout a{
+  text-decoration: none;
+  color: #F08080;
+}
+main {
+  width: 90%;
+  margin: 0px auto;
+}
+
+main h1{
+  margin-left: 50px;
+}
+
+button {
+  background: rgba(6, 156, 14, 1);;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-size: 27px;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all .3s cubic-bezier(.6,0,.4,1);
+  margin-top: 15px;
+}
+main p{
+  font-size: 30px;
+  font-style: italic;
+  font-family: Trebuchet MS;
+  font-weight: bold;
+}
+.cont{
+  margin-left: 50px;
+}
+.about{
+  margin-left: 80px;
+  font-size: 15px;
+}
+.pic{
+  width: 500px;
+  height: 300px;
+  margin-left: 80px
+}
+.pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.date p{
+  font-family: Trebuchet MS;
+  margin-left: 40px;
+  font-size: 15px;
+  text-align: left;
+  color: #666666;
+}
+input[type=text],
+input[type=password] {
+  background: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  height: 40px;
+  width: 99.5%;
+  margin-bottom: 10px;
+  opacity: 1;
+  text-indent: 20px;
+  transition: all .2s ease-in-out;
+}

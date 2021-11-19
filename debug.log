@@ -1,0 +1,829 @@
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3158
+"GET / HTTP/1.1" 200 3158
+"GET /news HTTP/1.1" 200 9557
+"GET /contacts HTTP/1.1" 200 2612
+"GET /signup/ HTTP/1.1" 200 1643
+"POST /signup/ HTTP/1.1" 200 1965
+"POST /signup/ HTTP/1.1" 200 1965
+"POST /signup/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1312
+"POST /recording HTTP/1.1" 302 0
+"GET /mytickets HTTP/1.1" 200 822
+"GET /static/css/myticketscss.css HTTP/1.1" 200 1603
+"GET / HTTP/1.1" 200 3121
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3158
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3158
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3158
+"GET /static/css/indexcss.css HTTP/1.1" 200 4533
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/js/script.js HTTP/1.1" 200 614
+"GET /static/pictures/line.png HTTP/1.1" 200 1497
+"GET /static/pictures/divan.png HTTP/1.1" 200 13068
+"GET /static/pictures/money.png HTTP/1.1" 200 13193
+"GET /static/pictures/block.png HTTP/1.1" 200 15407
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /media/2slid_z1HGaus.png HTTP/1.1" 200 954245
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /media/3slid_nF5oO2j.png HTTP/1.1" 200 957268
+"GET /media/1slid_BLgKP5y.png HTTP/1.1" 200 1008002
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /signup HTTP/1.1" 301 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /static/pictures/logo4.png HTTP/1.1" 200 12662
+"GET /static/css/signupcss.css HTTP/1.1" 200 3491
+"POST /signup/ HTTP/1.1" 200 1964
+"POST /signup/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1365
+"GET /static/css/recordingcss.css HTTP/1.1" 200 1902
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+"POST /recording HTTP/1.1" 302 0
+"GET /mytickets HTTP/1.1" 200 821
+"GET /static/css/myticketscss.css HTTP/1.1" 200 1603
+"GET / HTTP/1.1" 200 3120
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2576
+"GET /static/css/contactscss.css HTTP/1.1" 200 2821
+"GET /static/js/script1.js HTTP/1.1" 200 510
+"GET /static/pictures/send.png HTTP/1.1" 200 1824
+"GET /recording HTTP/1.1" 200 1365
+"GET / HTTP/1.1" 200 3120
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3120
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2268
+"GET /contacts HTTP/1.1" 200 2268
+"GET /contacts HTTP/1.1" 200 2268
+"GET /static/css/contactscss.css HTTP/1.1" 200 2821
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/js/script1.js HTTP/1.1" 200 510
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/send.png HTTP/1.1" 200 1824
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1365
+"GET /recording HTTP/1.1" 200 1389
+"GET /mytickets HTTP/1.1" 200 821
+"GET /recording HTTP/1.1" 200 1389
+"GET /recording HTTP/1.1" 200 1389
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 200 2322
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1380
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /mytickets HTTP/1.1" 200 821
+"GET /mytickets HTTP/1.1" 200 832
+"GET /mytickets HTTP/1.1" 200 832
+"GET /mytickets HTTP/1.1" 200 832
+"GET /static/css/myticketscss.css HTTP/1.1" 200 2015
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3120
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9518
+"GET /static/css/newscss.css HTTP/1.1" 200 4047
+"GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2268
+"GET /logout HTTP/1.1" 301 0
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3158
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3158
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9555
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3158
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2305
+"GET /contacts HTTP/1.1" 200 2305
+"GET /contacts HTTP/1.1" 200 2305
+"GET /static/css/contactscss.css HTTP/1.1" 200 2821
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/js/script1.js HTTP/1.1" 200 510
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/send.png HTTP/1.1" 200 1824
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /contacts HTTP/1.1" 200 2305
+"GET /static/css/contactscss.css HTTP/1.1" 200 2820
+"GET /contacts HTTP/1.1" 200 2305
+"GET /static/css/contactscss.css HTTP/1.1" 200 2820
+"GET /contacts HTTP/1.1" 200 2305
+"GET /static/css/contactscss.css HTTP/1.1" 200 2819
+"GET /recording HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /recording HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"GET /static/css/signincss.css HTTP/1.1" 200 3491
+"GET / HTTP/1.1" 200 3158
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3158
+"GET /static/css/indexcss.css HTTP/1.1" 200 4533
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/js/script.js HTTP/1.1" 200 614
+"GET /static/pictures/line.png HTTP/1.1" 200 1497
+"GET /static/pictures/divan.png HTTP/1.1" 200 13068
+"GET /static/pictures/money.png HTTP/1.1" 200 13193
+"GET /static/pictures/block.png HTTP/1.1" 200 15407
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /media/2slid_z1HGaus.png HTTP/1.1" 200 954245
+"GET /media/3slid_nF5oO2j.png HTTP/1.1" 200 957268
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /media/1slid_BLgKP5y.png HTTP/1.1" 200 1008002
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2297
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+"GET /static/admin/css/login.css HTTP/1.1" 200 939
+"GET /static/admin/css/base.css HTTP/1.1" 200 19513
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 7886
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/main/tickets/ HTTP/1.1" 200 10838
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6874
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/main/exhibition/ HTTP/1.1" 200 7956
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /admin/auth/group/ HTTP/1.1" 200 5946
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /admin/auth/user/ HTTP/1.1" 200 12567
+"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /news HTTP/1.1" 200 9520
+"GET /static/css/newscss.css HTTP/1.1" 200 4047
+"GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2270
+"GET /static/css/contactscss.css HTTP/1.1" 200 2819
+"GET /static/js/script1.js HTTP/1.1" 200 510
+"GET /static/pictures/send.png HTTP/1.1" 200 1824
+"GET /recording HTTP/1.1" 200 1391
+"GET /static/css/recordingcss.css HTTP/1.1" 200 2322
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+"GET /mytickets HTTP/1.1" 200 1485
+"GET /static/css/myticketscss.css HTTP/1.1" 200 2015
+"GET /recording HTTP/1.1" 200 1391
+"POST /recording HTTP/1.1" 200 1428
+"GET /mytickets HTTP/1.1" 200 1485
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2270
+"GET /news HTTP/1.1" 200 9520
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9520
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2270
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9520
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2270
+"GET /news HTTP/1.1" 200 9520
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2270
+"GET /recording HTTP/1.1" 200 1391
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"POST /recording HTTP/1.1" 200 1428
+"GET /mytickets HTTP/1.1" 200 1485
+"GET /recording HTTP/1.1" 200 1391
+"GET / HTTP/1.1" 200 3122
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9599
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET /contacts HTTP/1.1" 200 2349
+"GET /contacts HTTP/1.1" 200 2349
+"GET /contacts HTTP/1.1" 200 2349
+"GET /static/css/contactscss.css HTTP/1.1" 200 3239
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/pictures/send.png HTTP/1.1" 200 1824
+"GET /static/js/script1.js HTTP/1.1" 200 510
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1391
+"GET /mytickets HTTP/1.1" 200 1485
+"GET /recording HTTP/1.1" 200 1391
+"GET /logout HTTP/1.1" 301 0
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3236
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3236
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3236
+"GET /static/css/indexcss.css HTTP/1.1" 200 4953
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/js/script.js HTTP/1.1" 200 614
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /static/pictures/line.png HTTP/1.1" 200 1497
+"GET /static/pictures/divan.png HTTP/1.1" 200 13068
+"GET /static/pictures/block.png HTTP/1.1" 200 15407
+"GET /static/pictures/money.png HTTP/1.1" 200 13193
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /media/2slid_z1HGaus.png HTTP/1.1" 200 954245
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /media/3slid_nF5oO2j.png HTTP/1.1" 200 957268
+"GET /media/1slid_BLgKP5y.png HTTP/1.1" 200 1008002
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup HTTP/1.1" 301 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /static/css/signupcss.css HTTP/1.1" 200 3491
+"GET /static/pictures/logo4.png HTTP/1.1" 200 12662
+"GET /contacts HTTP/1.1" 200 2384
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET /news HTTP/1.1" 200 9634
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 200 4467
+"GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+"GET /static/pictures/line.png HTTP/1.1" 200 1497
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /media/2slid_z1HGaus.png HTTP/1.1" 200 954245
+"GET /media/3slid_nF5oO2j.png HTTP/1.1" 200 957268
+"GET /media/1slid_BLgKP5y.png HTTP/1.1" 200 1008002
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 200 4467
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 200 4467
+"GET /static/js/jquery-3.6.0.min.js HTTP/1.1" 200 89501
+"GET /static/pictures/logo2.png HTTP/1.1" 200 15836
+"GET /static/pictures/line.png HTTP/1.1" 200 1497
+"GET /static/pictures/vk1.png HTTP/1.1" 200 2724
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /static/pictures/inst.png HTTP/1.1" 200 2104
+"GET /static/pictures/phone.png HTTP/1.1" 200 2270
+"GET /static/pictures/mail.png HTTP/1.1" 200 2708
+"GET /media/2slid_z1HGaus.png HTTP/1.1" 200 954245
+"GET /media/3slid_nF5oO2j.png HTTP/1.1" 200 957268
+"GET /media/1slid_BLgKP5y.png HTTP/1.1" 200 1008002
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3236
+"GET /static/css/indexcss.css HTTP/1.1" 200 4953
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2384
+"GET /static/css/contactscss.css HTTP/1.1" 200 3239
+"GET / HTTP/1.1" 200 3236
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2384
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET /news HTTP/1.1" 200 9634
+"GET /static/css/newscss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3236
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2384
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3236
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+C:\Users\Vladik\Desktop\dj\webtest\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3235
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /signup/ HTTP/1.1" 200 1643
+"GET / HTTP/1.1" 200 3235
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"GET /static/css/signincss.css HTTP/1.1" 200 3491
+"GET / HTTP/1.1" 200 3235
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"POST /signup/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1391
+"POST /recording HTTP/1.1" 302 0
+"GET /mytickets HTTP/1.1" 200 834
+"GET /recording HTTP/1.1" 200 1391
+"GET / HTTP/1.1" 200 3200
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3235
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET / HTTP/1.1" 200 3235
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2384
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"POST /signin/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1391
+C:\Users\Vladik\Desktop\dj\webtest\main\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3200
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 200 1484
+"GET /recording HTTP/1.1" 200 1406
+C:\Users\Vladik\Desktop\dj\webtest\main\forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /recording HTTP/1.1" 200 1406
+"GET /recording HTTP/1.1" 200 1406
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3966
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3965
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 3965
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4038
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4038
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4038
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4037
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1436
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3200
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET /news HTTP/1.1" 200 9599
+"GET /static/css/newscss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3235
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"POST /signin/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1399
+"GET /recording HTTP/1.1" 200 1399
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4059
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4075
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4075
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4075
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4086
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4086
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4086
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4045
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET /news HTTP/1.1" 200 9599
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 200 1484
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4068
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1399
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4068
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4105
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4105
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1426
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1389
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+"POST /recording HTTP/1.1" 200 1426
+"POST /recording HTTP/1.1" 200 1426
+"POST /recording HTTP/1.1" 200 1426
+"GET /recording HTTP/1.1" 200 1389
+"POST /recording HTTP/1.1" 200 1426
+"POST /recording HTTP/1.1" 200 1460
+"POST /recording HTTP/1.1" 200 1460
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4084
+"GET /static/pictures/logo3.png HTTP/1.1" 200 12640
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3715
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4111
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4133
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4157
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4180
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4180
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4180
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4229
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4180
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"POST /recording HTTP/1.1" 200 1460
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"POST /recording HTTP/1.1" 200 1489
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1489
+"POST /recording HTTP/1.1" 200 1517
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1517
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3235
+"GET /static/css/indexcss.css HTTP/1.1" 304 0
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"POST /signin/ HTTP/1.1" 302 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /mytickets HTTP/1.1" 200 1484
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4182
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4189
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4221
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4236
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4243
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4228
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4018
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4011
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 200 4038
+"GET / HTTP/1.1" 200 3200
+Not Found: /media/xDf12-49Zpo.jpg
+"GET /media/xDf12-49Zpo.jpg HTTP/1.1" 404 3840
+"GET /contacts HTTP/1.1" 200 2349
+"GET /static/css/contactscss.css HTTP/1.1" 304 0
+"GET /recording HTTP/1.1" 200 1406
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /static/css/recordingcss.css HTTP/1.1" 304 0
+"POST /recording HTTP/1.1" 200 1443
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 200 7886
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+"GET /admin/main/exhibition/ HTTP/1.1" 200 7956
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/actions.js HTTP/1.1" 200 7867
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 5984
+"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 287630
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"POST /admin/main/exhibition/ HTTP/1.1" 200 5964
+"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+"POST /admin/main/exhibition/ HTTP/1.1" 302 0
+"GET /admin/main/exhibition/ HTTP/1.1" 200 7871
+"GET /admin/jsi18n/ HTTP/1.1" 200 15618
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET / HTTP/1.1" 200 3053
+"GET / HTTP/1.1" 200 3053
+"GET / HTTP/1.1" 200 3053
+"GET / HTTP/1.1" 200 3053
+"GET /contacts HTTP/1.1" 200 2349
+"GET /logout/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 3088
+"GET /contacts HTTP/1.1" 200 2384
+"GET /news HTTP/1.1" 200 8968
+"GET /static/css/newscss.css HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 3088
+"GET /mytickets HTTP/1.1" 302 0
+"GET /signup/ HTTP/1.1" 200 1643
+"GET /signin/ HTTP/1.1" 200 1411
+"GET / HTTP/1.1" 200 3088

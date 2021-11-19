@@ -1,0 +1,201 @@
+body{
+	background-color: white;
+	margin-top: 18px;
+	width: 1440px;
+	margin:0px auto;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	width: 1320px;
+	margin:0px auto;
+}
+
+main{
+	width: 1320px;
+	margin:0px auto;
+}
+
+header p{
+	font-family: Georgia;
+	font-size: 36px;
+  	text-align: center;
+  	margin-top: 10px;
+  	text-decoration: none;
+  	color: #666666;
+}
+.myticket{
+	position: absolute;
+	right: 3%;
+	top: 290px;
+	max-width: 20%;
+	margin: 0px auto;
+	margin-top: 10px;
+  	padding: 7px 7px 7px 7px;
+  	border: 1px solid #F08080;
+  	border-radius: 5px 5px 5px 5px;
+  	font-family: Trebuchet MS;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: white;
+  	text-align: right;
+	text-decoration: none;
+}
+.myticket a{
+	text-decoration: none;
+	color: #F08080;
+}
+
+header a{
+	border: none;
+	text-decoration: none;
+	color: black;
+	height: 80px;
+	margin-top: 75px;
+}
+.views{
+	font-family: Georgia;
+	font-size: 52px;
+  	text-align: center;
+  	color: #666666;
+  	font-style: bold;
+  	margin-top: 10px;
+}
+.logout{
+	position: absolute;
+	right: 3%;
+	top: 210px;
+	max-width: 20%;
+	margin: 0px auto;
+	margin-top: 10px;
+  	padding: 7px 7px 7px 7px;
+  	border: 1px solid #F08080;
+  	border-radius: 5px 5px 5px 5px;
+  	font-family: Trebuchet MS;
+  	font-size: 20px;
+  	font-weight: bold;
+  	color: white;
+  	text-align: right;
+	text-decoration: none;
+}
+.logout a{
+	text-decoration: none;
+	color: #F08080;
+}
+.news, .contacts{
+	background-color: white;
+  	border: 5px solid #666666;
+  	border-radius: 15px 15px 15px 15px;
+  	width: 230px;
+  	height: 70px;
+}
+
+.logo{
+	width: 673;
+	margin-top: 20px;
+}
+
+.map{
+	margin: 0px auto;
+	width: 1200px;
+	height: 600px;
+	border: 10px solid #666666;
+  	border-radius: 15px 15px 15px 15px;
+}
+
+.message{
+	margin: 0px auto;
+	width: 75px;
+	height: 80px;
+	border: 10px solid #666666;
+  	border-radius: 15px 15px 15px 15px;
+  	display: flex;
+  	justify-content: space-between;
+}
+
+#mail{
+	margin-top: 15px;
+}
+
+.field{
+	font-family: Georgia;
+	clear:both; 
+	text-align:right;
+	font-size: 22px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.message button{
+	text-decoration: none;
+    border: none;
+    color: white;
+    background-color: white;
+    margin-right: 20px;
+}
+
+footer{
+	background-color: #666666;
+	height: 220px;
+	width: 1440px;
+	margin: 0px auto;
+	margin-top: 80px;
+}
+
+.footer_elem{
+	display: flex;
+	justify-content: space-between;
+}
+
+.soc_web{
+	display: block;
+	width: 60px;
+	margin-left: 52px;
+	margin-top: 30px;
+}
+
+.info p{
+	text-align: left;
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 28px;
+	font-style: italic;
+}
+.number{
+	display: flex;
+
+	height: 56px;
+}
+.mail{
+	display: flex;
+
+	height: 56px;
+	margin-top: 40px;
+}
+.number_mail{
+	width: 410px;
+	height: 150px;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.number_mail p{
+	color: white;
+	font-family: Trebuchet MS;
+	font-size: 36px;
+	font-style: italic;
+	height: 56px;
+	text-align: left;
+	margin-top: 7px;
+	margin-left: 23px;
+}
+.footer_color{
+	height: 220px;
+	width: 1320px;
+	margin: 0px auto;
+}
+.inst{
+	margin-top: 38px;
+}
+.info{
+	margin-top: -2px;
+}
